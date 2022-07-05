@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ltadrian/test-dynamo-db-api/config"
-	"github.com/ltadrian/test-dynamo-db-api/db"
-	"github.com/ltadrian/test-dynamo-db-api/server"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/config"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/db"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/server"
 )
 
 func main() {

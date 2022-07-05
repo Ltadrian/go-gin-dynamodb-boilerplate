@@ -2,7 +2,7 @@ package server
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ltadrian/test-dynamo-db-api/controllers"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/controllers"
 )
 
 func NewRouter() *gin.Engine {

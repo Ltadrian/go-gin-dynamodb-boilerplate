@@ -1,4 +1,4 @@
-module github.com/ltadrian/test-dynamo-db-api
+module github.com/ltadrian/go-gin-dynamodb-boilerplate
 
 go 1.18
 

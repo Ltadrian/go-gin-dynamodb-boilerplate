@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
-	localConfig "github.com/ltadrian/test-dynamo-db-api/config"
+	localConfig "github.com/ltadrian/go-gin-dynamodb-boilerplate/config"
 )
 
 var db *dynamodb.Client

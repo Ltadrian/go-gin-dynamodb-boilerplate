@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/ltadrian/test-dynamo-db-api/forms"
-	"github.com/ltadrian/test-dynamo-db-api/models"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/forms"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/models"
 )
 
 type UserController struct{}

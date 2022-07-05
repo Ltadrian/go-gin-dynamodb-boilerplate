@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
 	"github.com/google/uuid"
-	"github.com/ltadrian/test-dynamo-db-api/db"
-	"github.com/ltadrian/test-dynamo-db-api/forms"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/db"
+	"github.com/ltadrian/go-gin-dynamodb-boilerplate/forms"
 )
 
 type User struct {
