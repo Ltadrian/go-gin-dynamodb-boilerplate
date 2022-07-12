@@ -11,6 +11,7 @@ var config *viper.Viper
 func Init(env string) {
 	var err error
 	config = viper.New()
+	config.BindEnv("JWT_SECRET")
 	config.SetConfigType("yaml")
 	config.SetConfigName(env)
 	config.AddConfigPath("../config/")

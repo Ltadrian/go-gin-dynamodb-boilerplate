@@ -3,3 +3,4 @@ db:
   endpoint: "http://localhost:8000"
 server:
   port: ":8080"
+JWT_SECRET: "test"
